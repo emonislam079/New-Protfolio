@@ -51,7 +51,7 @@ const Bannar = () => {
                                     <Nav.Link
                                         className="text-light"
                                         target="_blank"
-                                        href="https://drive.google.com/file/d/1x0r8YeI1cGs_7Gb_aG6KCGntuifxDB1A/view?usp=sharing">Download Resume</Nav.Link>
+                                        href="https://drive.google.com/file/d/1dhBartTI_nPnBNtz1R-GnTKgVmuPA0D9/view?usp=sharing">Download Resume</Nav.Link>
                                 </Button>
                                 
                             </div>
