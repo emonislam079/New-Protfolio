@@ -8,7 +8,7 @@ import { Nav } from 'react-bootstrap';
 const About = () => {
     return (
       <>
-      <h1 className="color mt-5" id='about'>ABOUT ME</h1>
+      <h1 className="color mt-5 pt-5" id='about'>ABOUT ME</h1>
         <div className="banner container-fluid">
     <div className="icon">
       <div className="row pt-5 pb-3">
@@ -48,7 +48,7 @@ const About = () => {
           className="col-lg-6 p-3 "
           style={{ textAlign: "center"}}
         >
-          <div className='mb-3'>
+          <div>
           <h1 className='mb-3 text-primary animate__animated animate__flip' >I am Emon Islam </h1>
           <h4 className='mt-5'>
             I'm a passionate web designer and developer.I believe in hard

@@ -18,7 +18,7 @@ import Photoshop from '../../skills/photoshop.png'
 
 const Skills = () => {
     return (
-        <Container id="skills" className="pt-5">
+        <Container id="skills" className="pt-5 mt-5">
             <div className="pt-2 pb-4">
                 <h2 className="text-primary heading">Skills</h2>
             </div>
