@@ -5,9 +5,10 @@ import { GrLinkedin } from 'react-icons/gr';
 import { FaGithub } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 
+
 const Bannar = () => {
     return (
-        <div>
+        <div id='bannar'>
            <Container className="pt-5">
                 <Row>
                     <Col xs={12} md={6}>
@@ -18,17 +19,16 @@ const Bannar = () => {
                     <Col xs={12} md={6}>
                         <div className="ms-5 pt-5">
                             <h2 className="text-dark text-start heading">Hi, from</h2>
-                            <h1 className="text-primary text-start heading">Emon Islam</h1>
-                            <h4 className="text-dark text-start mt-4 description">
-                                A Full Stack web developer experienced in React, Node.js, Express.js, Mongodb and many more cool libraries
-                            </h4>
-                            <div className="mt-4 d-flex justify-content-center">
+                            <h1 className="text-primary ms-5 text-start heading animate__animated animate__fadeInRight">Emon Islam</h1>
+                            <h3 className="text-dark text-start ms-5 ps-5 description"> 
+                                (Front-End Developer)
+                            </h3>
+                            <div className="mt-5 d-flex justify-content-center">
                                 <Nav.Link
                                     className=" ps-0"
                                     href="https://www.linkedin.com/in/emon-i-440842a4/"
                                     target="_blank"
                                 >
-
                                     <GrLinkedin className="text-dark h1 "></GrLinkedin>
                                 </Nav.Link>
 

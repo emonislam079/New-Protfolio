@@ -19,8 +19,8 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link as={HashLink} to="/home">Home</Nav.Link>
-                        <Nav.Link as={HashLink} to="#projects">Projects</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#bannar">Home</Nav.Link>
+                        <Nav.Link as={HashLink} to="#about">About</Nav.Link>
                         <Nav.Link as={HashLink} to="#skills">Skills</Nav.Link>
                         <Nav.Link as={HashLink} to="#contactForm">Contact Me</Nav.Link>
                         <Nav.Link target="_blank" href="https://drive.google.com/file/d/1x0r8YeI1cGs_7Gb_aG6KCGntuifxDB1A/view?usp=sharing">Download Resume</Nav.Link>
