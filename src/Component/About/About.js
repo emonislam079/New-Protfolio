@@ -4,8 +4,11 @@ import { GrLinkedin } from 'react-icons/gr';
 import { FaGithub } from 'react-icons/fa';
 import { BsFacebook } from 'react-icons/bs';
 import { Nav } from 'react-bootstrap';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
+  AOS.init();
     return (
       <>
       <h1 className="color mt-5 pt-5" id='about'>ABOUT ME</h1>
@@ -36,7 +39,7 @@ const About = () => {
           </Nav.Link>
         </div>
       </div>
-        <div className="col-lg-4">
+        <div className="col-lg-4" data-aos="fade-right" data-aos-duration="2000">
           <img
             style={{ width: "100%" }}
             className=" pb-5"
