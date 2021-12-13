@@ -13,10 +13,7 @@ const Project = (props) => {
       src={img1}
       alt="First slide"
     />
-    <Carousel.Caption>
-      <h3>{name}</h3>
-      <p>{details}</p>
-    </Carousel.Caption>
+    
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -25,10 +22,7 @@ const Project = (props) => {
       alt="Second slide"
     />
 
-    <Carousel.Caption>
-    <h3>{name}</h3>
-      <p>{details}</p>
-    </Carousel.Caption>
+    
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -37,19 +31,15 @@ const Project = (props) => {
       alt="Third slide"
     />
 
-    <Carousel.Caption>
-    <h3>{name}</h3>
-      <p>{details}</p>
-    </Carousel.Caption>
+    
+    
   </Carousel.Item>
 </Carousel>
         <Card.Body >
-          <Card.Text className="my-3">
-            {details}
+            <h2>{name}</h2>
+            <p>{details}</p>
             <h5 className="my-3">Technology used:{tech}</h5>
-            
-          </Card.Text>
-        </Card.Body>
+            </Card.Body>
       </Card>
     </Col>
     );

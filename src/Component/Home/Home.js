@@ -12,8 +12,9 @@ const Home = () => {
             <Bannar></Bannar>
             <About></About>
             <Skills></Skills>
-            <Contact></Contact>
             <Projects></Projects>
+            <Contact></Contact>
+           
         </div>
     );
 };

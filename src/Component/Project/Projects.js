@@ -11,7 +11,8 @@ const Projects = () => {
    }, []);
    
     return (
-        <div className="container">
+        <div className="container mt-5 pt-5">
+            <h2 className="text-primary heading">Personal Project</h2>
             <Row xs={1} md={2} className="g-4 container">
             {
                 Projects.map(project=> <Project
