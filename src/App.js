@@ -11,6 +11,7 @@ import About from './Component/About/About';
 import Skills from './Component/Skills/Skills';
 import Contact from './Component/Contact/ContactForm';
 import Projects from './Component/Project/Projects';
+import Blogs from './Component/Blogs/Blogs';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/blogs" element={<Blogs />} />
         </Routes>
         <Footer></Footer>
       </BrowserRouter>

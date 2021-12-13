@@ -24,7 +24,7 @@ export default function ContactForm() {
     };
 
     return (
-        <Container className="mt-5 py-5 text-dark text-start" id="contactForm">
+        <Container className="mt-5 py-5 text-white text-start bg-dark" id="contactForm">
             <div className="pt-2 pb-4">
                 <h2 className="heading text-center">Contact</h2>
             </div>
@@ -63,7 +63,7 @@ export default function ContactForm() {
                     />
                 </Form.Group>
                 <div>
-                    <Button type="submit" className="px-5 bg-warning text-dark border-0">Send</Button>
+                    <Button type="submit" className="px-5 bg-primary text-dark border-0">Send</Button>
                 </div>
             </Form>
         </Container>
