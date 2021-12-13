@@ -10,6 +10,7 @@ import Footer from './Component/Footer/Footer'
 import About from './Component/About/About';
 import Skills from './Component/Skills/Skills';
 import Contact from './Component/Contact/ContactForm';
+import Projects from './Component/Project/Projects';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
         <Footer></Footer>
       </BrowserRouter>

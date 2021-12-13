@@ -1,0 +1,86 @@
+const ProjectData=[
+    {
+        id: 101,
+        name: 'TOYS ZONE',
+        details:'This is a toy shop based web site',
+        img1:'img1',
+        img2:'img2',
+        img3:'img3',
+        liveside: 'https://toys-zone-ef3aa.web.app/',
+        clientside: 'https://github.com/emonislam079/Toy-Zone--client-side',
+        Serverside: 'https://github.com/emonislam079/Toy-zone-server-side',
+        tech: 'React, React Router, Node, MongoDB, Plane Bootstrap, Material UI, Firebase, Heroku'
+    },
+    {
+        id: 102,
+        name: 'Adventure',
+        details: 'This is a tourisom site',
+        img1:'img1',
+        img2:'img2',
+        img3:'img3',
+        liveside: 'https://tourisom-36bf8.web.app/',
+        clientside: 'https://github.com/emonislam079/advanture-client-side',
+        Serverside: 'https://github.com/emonislam079/advanture-server-side',
+        tech: 'React, React Router, React-Bootstrap, React Hook Form, Node, MongoDB, Firebase, Heroku.'
+    },
+    {
+        id: 103,
+        name: 'N.S Dental Care',
+        details: 'This is a dental care based website',
+        img1:'img1',
+        img2:'img2',
+        img3:'img3',
+        liveside: 'https://ns-dental-care.web.app/',
+        clientside: 'https://github.com/emonislam079/ns-dental',
+        Serverside: '',
+        tech: 'React, React Router, React-Bootstrap, React Hook Form, CSS, Firebase.'
+    },
+    {
+        id: 104,
+        name: 'Adarsha Lipi',
+        details: 'This is a educational based web side',
+        img1:'img1',
+        img2:'img2',
+        img3:'img3',
+        liveside: 'https://admiring-pike-73a2e9.netlify.app/',
+        clientside: 'https://github.com/emonislam079/adarshalipi',
+        Serverside: '',
+        tech: 'React, React Router, Bootstrap, CSS, netlify'
+    },
+    {
+        id: 105,
+        name: 'Creative Software',
+        details: 'This is a softwear company',
+        img1:'img1',
+        img2:'img2',
+        img3:'img3',
+        liveside: 'https://gallant-wing-224597.netlify.app/',
+        clientside: 'https://github.com/emonislam079/creative-soft',
+        Serverside: '',
+        tech: 'HTML, CSS, BOOTSTRAP, JavaScript'
+    },
+    {
+        id: 106,
+        name: 'Mac-Book',
+        details: 'This a mac-book based web side. Here you can buy Mac-Book',
+        img1:'img1',
+        img2:'img2',
+        img3:'img3',
+        liveside: 'https://mack-book.netlify.app/',
+        clientside: 'https://github.com/emonislam079/mac-book',
+        Serverside: '',
+        tech: 'HTML, CSS, BOOTSTRAP, JavaScript'
+    },
+    {
+        id: 107,
+        name: 'Honda CBR 300R',
+        details: 'This is a Honda shop based website. Here you can see all kind of honda company bike',
+        img1:'img1',
+        img2:'img2',
+        img3:'img3',
+        liveside: 'https://honda-cbr-150.netlify.app/',
+        clientside: 'https://github.com/emonislam079/honda-crb-boostrape',
+        Serverside: '',
+        tech: 'HTML, CSS, BOOTSTRAP'
+    },
+]
